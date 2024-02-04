@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff; /* Replace with the actual color */
+  padding: 10px 20px;
+}
+
+.logo-container {
+  /* Adjust the width as per your logo's aspect ratio */
+}
+
+.logo {
+  height: 50px; /* Adjust based on your actual logo size */
+}
+
+.navbar {
+  display: flex;
+}
+.navbar a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: black; /* Default text color */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+  /* Add more styling as needed */
+}
+.navbar a:hover {
+  color: red; /* Text color on hover */
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000; /* Replace with the actual text color */
+  font-weight: bold; /* Adjust as per the design */
+  /* Add hover effects and other styles as needed */
+}
+.search-button {
+  /* Adjust any necessary styles, remove background image since we're using an img tag now */
+  border: none;
+  cursor: pointer;
+  background: none;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: auto;
+}
+
+.search-button img {
+  /* You can control the size of the search icon here */
+  width: 20px; /* example size, adjust as needed */
+  height: 20px; /* example size, adjust as needed */
+}
